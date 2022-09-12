@@ -68,7 +68,7 @@ DELETE FROM cliente WHERE cedula = @CC
 	execute USP_consutar 1;
 	execute USP_insertar 2 , "sebas" , "correa", "sebas@gmail.com","3215204685",1000000;
 	execute USP_actualizar  2, "sebas" , "garcia", "sebas12@gmail.com","3215555555",1000000;
-	execute USP_eliminar 1;
+	execute USP_eliminar 2;
 	 
 	  
 	   
